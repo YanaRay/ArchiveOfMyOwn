@@ -1,0 +1,48 @@
+body {
+    background-color: #6e4125;
+    color: white;
+}
+
+.banner {
+    width: 1100px;
+    margin: auto;
+    height: 200px;
+    background-image: url('../../../Resources/Images/TopPanel.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #af6c43;
+}
+
+.content {
+    width: 1100px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.content-line {
+    max-width: 300px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.content-line img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+.column-1 { 
+    width: 100%;
+    margin-right: 20px;
+}
+
+.column-2 { 
+    width: 100%;
+}
+
+.content img {
+    width: 100%;
+    height: auto; 
+}
+
